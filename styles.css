@@ -9,6 +9,10 @@ body {
   font-family: 'Source Sans 3', sans-serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .top-section-wrapper {
   overflow: hidden;
   background-color: #001D37;
@@ -58,7 +62,7 @@ body {
   text-decoration: none;
   padding: 13px 25px;
   border-radius: 1000px;
-  transition: background-color: .3s ease-out, border .3s ease-out, color .3s ease-out;
+  transition: background-color .3s ease-out, border .3s ease-out, color .3s ease-out;
 }
 
 .our-btn:hover {
@@ -74,7 +78,7 @@ body {
 .Our-btn--outline:hover {
   background-color: white;
   color: #2E40E2;
-  border: 2px solide white;
+  border: 2px solid white;
 }
 
 .utility-mr {
