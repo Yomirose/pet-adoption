@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Our Cool Title</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstotic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -119,52 +119,20 @@
         <p>Shom me: <button>All Pets</button> <button>Only Dogs</button> <button>Only Cats</button></p>
       </div>
 
-      <div class="list-of-pets">
-        <div class="pet-card">
+      <div class="list-of-pets"></div>
+
+      <template id="pet-card-teplate">
+        <div class="pet-card"> 
           <div class="pet-card-text">
-            <h3>Barksalot</h3>
-            <p class="pet-description">Barksalot is a sweet and lovable 3 year old ball of fluff. He loves carrots,
-              celery, and playing fetch.</p>
-            <p class="pet-age">2 Years Old</p>
+            <h3></h3>
+            <p class="pet-description"></p>
+            <p class="pet-age"></p>
           </div>
           <div class="pet-card-photo">
-            <img src="images/Barksalot JGP.jpg" alt="A whilte fluffy dog named Barksalot">
+            <img src="" alt="">
           </div>
-        </div><!-- end of pet card -->
-        <div class="pet-card">
-          <div class="pet-card-text">
-            <h3>Meowsalot</h3>
-            <p class="pet-description">Meowsalot is the most talkative cat we&rsquo;ve ever come across. Constant
-              meowing, chirping and purring!</p>
-            <p class="pet-age">1 Year Old</p>
-          </div>
-          <div class="pet-card-photo">
-            <img src="images/Meowsalot.jpg.jpg" alt="A cat">
-          </div>
-        </div><!-- end of pet card -->
-        <div class="pet-card">
-          <div class="pet-card-text">
-            <h3>Woof</h3>
-            <p class="pet-description">Woof is a very talkative and sweet pup. She loves beets, plums, cuddles and
-              jumping over low fences.</p>
-            <p class="pet-age">Less than a Year Old</p>
-          </div>
-          <div class="pet-card-photo">
-            <img src="images/Woof.jpg.jpg" alt="A dog">
-          </div>
-        </div><!-- end of pet card -->
-        <div class="pet-card">
-          <div class="pet-card-text">
-            <h3>Purrsloud</h3>
-            <p class="pet-description">Purrsloud has the loudest and most relaxing purr that&rsquo;s come through our
-              center. Come hear it yourself.</p>
-            <p class="pet-age">4 Years Old</p>
-          </div>
-          <div class="pet-card-photo">
-            <img src="images/Purrsloud.jpg.jpg" alt="A whilte fluffy dog named Barksalot">
-          </div>
-        </div><!-- end of pet card -->
-      </div>
+        </div> 
+      </template>
 
     </div>
   </div>
